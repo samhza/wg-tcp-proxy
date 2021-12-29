@@ -48,8 +48,7 @@ func main() {
 		logger.Verbosef = func(f string, v ...interface{}) {}
 	}
 	dev := device.NewDevice(tun, conn.NewStdNetBind(), logger)
-	err = dev.IpcSet(fmt.Sprintf(`
-private_key=%s
+	err = dev.IpcSet(fmt.Sprintf(`private_key=%s
 public_key=%s
 endpoint=%s
 allowed_ip=0.0.0.0/0
