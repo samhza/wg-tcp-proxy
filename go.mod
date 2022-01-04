@@ -1,4 +1,4 @@
-module go.samhza.com/wg-tcp-proxy
+module samhza.com/wg-tcp-proxy
 
 go 1.17
 
