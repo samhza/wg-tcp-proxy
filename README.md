@@ -1,4 +1,7 @@
 # wg-tcp-proxy
+`go install samhza.com/wg-tcp-proxy@latest`
+
+---
 ```
 Usage of wg-tcp-proxy:
   -addr value
