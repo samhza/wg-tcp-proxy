@@ -8,9 +8,9 @@ import (
 	"io"
 	"log"
 	"net"
+	"net/netip"
 	"os"
 
-	"golang.zx2c4.com/go118/netip"
 	"golang.zx2c4.com/wireguard/conn"
 	"golang.zx2c4.com/wireguard/device"
 	"golang.zx2c4.com/wireguard/tun/netstack"
